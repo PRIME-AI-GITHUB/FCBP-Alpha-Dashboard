@@ -1,0 +1,48 @@
+.Polaris-Stack {
+    flex-wrap: nowrap !important;
+}
+
+.example-enter {
+    opacity: 0.01;
+  }
+  
+  .example-enter.example-enter-active {
+    opacity: 1;
+    transition: opacity 500ms ease-in;
+  }
+  
+  .example-leave {
+    opacity: 1;
+  }
+  
+  .example-leave.example-leave-active {
+    opacity: 0.01;
+    transition: opacity 300ms ease-in;
+  }
+
+  
+  .shopify-underline {
+    border-bottom: 2px dotted #c4cdd5;
+    width: fit-content;
+  }
+
+  .fadeOut{
+    opacity:0;
+    width:0;
+    height:0;
+    transition: width 0.5s 0.5s, height 0.5s 0.5s, opacity 0.5s;
+
+}
+.fadeIn{
+    opacity:1;
+    width:100px;
+    height:100px;
+    transition: width 0.5s, height 0.5s, opacity 0.5s 0.5s;
+}
+.text-link {
+  color: inherit;
+  text-decoration: inherit;
+}
+.Polaris-Card > .Polaris-Card__Section > .Polaris-Card__Section {
+  padding: 0px;
+}
